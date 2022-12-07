@@ -58,25 +58,25 @@ def citation_submit():
     citations_proper = []
     for j in filtered_inputs:
         if j['label'] == 'last1':
-            citations_proper.append({'prefix': 'last1=', 'entry_data': j['entry_data'], 'suffix': ' |'})
+            citations_proper.append({'prefix': 'last1=', 'entry_data': j['entry_data'], 'suffix': ' | '})
         elif j['label'] == 'first1':
-            citations_proper.append({'prefix': 'first1=', 'entry_data': j['entry_data'], 'suffix': ' |'})
+            citations_proper.append({'prefix': 'first1=', 'entry_data': j['entry_data'], 'suffix': ' | '})
         elif j['label'] == 'last2':
-            citations_proper.append({'prefix': 'last2=', 'entry_data': j['entry_data'], 'suffix': ' |'})
+            citations_proper.append({'prefix': 'last2=', 'entry_data': j['entry_data'], 'suffix': ' | '})
         elif j['label'] == 'first2':
-            citations_proper.append({'prefix': 'first2=', 'entry_data': j['entry_data'], 'suffix': ' |'})
+            citations_proper.append({'prefix': 'first2=', 'entry_data': j['entry_data'], 'suffix': ' | '})
         elif j['label'] == 'title':
-            citations_proper.append({'prefix': 'title=', 'entry_data': j['entry_data'], 'suffix': ' |'})
+            citations_proper.append({'prefix': 'title=', 'entry_data': j['entry_data'], 'suffix': ' | '})
         elif j['label'] == 'url':
-            citations_proper.append({'prefix': 'url=', 'entry_data': j['entry_data'], 'suffix': ' |'})
+            citations_proper.append({'prefix': 'url=', 'entry_data': j['entry_data'], 'suffix': ' | '})
         elif j['label'] == 'source_date':
-            citations_proper.append({'prefix': 'source-date=', 'entry_data': j['entry_data'], 'suffix': ' |'})
+            citations_proper.append({'prefix': 'source-date=', 'entry_data': j['entry_data'], 'suffix': ' | '})
         elif j['label'] == 'journal':
-            citations_proper.append({'prefix': 'journal=', 'entry_data': j['entry_data'], 'suffix': ' |'})
+            citations_proper.append({'prefix': 'journal=', 'entry_data': j['entry_data'], 'suffix': ' | '})
         elif j['label'] == 'volume':
-            citations_proper.append({'prefix': 'volume=', 'entry_data': j['entry_data'], 'suffix': ' |'})
+            citations_proper.append({'prefix': 'volume=', 'entry_data': j['entry_data'], 'suffix': ' | '})
         elif j['label'] == 'issue':
-            citations_proper.append({'prefix': 'issue=', 'entry_data': j['entry_data'], 'suffix': ' |'})
+            citations_proper.append({'prefix': 'issue=', 'entry_data': j['entry_data'], 'suffix': ' | '})
         elif j['label'] == 'pages':
             citations_proper.append({'prefix': 'pages=', 'entry_data': j['entry_data'], 'suffix': ''})
         else:
