@@ -51,7 +51,7 @@ def citation_submit():
     # outputs to a sequentially formatted filtered_input[{}]
     filtered_inputs = []
     for i in transformer1:
-        if i['entry_data'] != 'x':
+        if i['entry_data'] != '':
             filtered_inputs.append({'label': i['label'], 'entry_data': i['entry_data']})
 
     # adaptive citation engine:
@@ -171,9 +171,6 @@ entry_iss.grid(row=9, column=1)
 entry_pgs.grid(row=10, column=1)
 
 button1.grid(row=10, column=3)
-
-label_legend = tk.Label(master, text='NOTICE: populate all null fields with the character: x')
-label_legend.place(relx=0.5, rely=0.7, anchor='center')
 
 master.mainloop()
 
